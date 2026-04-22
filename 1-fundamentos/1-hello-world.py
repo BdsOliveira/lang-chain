@@ -6,4 +6,4 @@ load_dotenv()
 model = ChatOpenAI(model="gpt-5-nano", temperature=1)
 message = model.invoke("Hello, World!")
 
-print(message)
+print(message.content)
